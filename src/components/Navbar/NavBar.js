@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import NavLinks from './NavLinks';
-import logoImg from '../../../public/images/logogreen.png';
+import logoImg from '../../../public/images/logo_green.png';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -25,7 +25,7 @@ const NavBar = () => {
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 lg:px-20 md:px-20 ${!top && 'bg-white shadow-lg'}`} style={{ background: "linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(249,249,249,1) 35%, rgba(255,255,255,1) 100%)" }}>
             <div className="flex flex-row justify-between items-center p-2">
                 <div className="flex flex-row justify-center md:px-6 md:mx-6 items-center text-center font-semibold">
-                    <Link href="/"><Image alt="logo img" src={logoImg}/></Link>
+                    <Link href="/"><Image alt="logo img" src={logoImg} width={200} height={200}/></Link>
                 </div>
                 <div className="group flex flex-col items-center">
                     <button className="p-2 rounded-lg lg:hidden text-green-700" onClick={handleClick}>

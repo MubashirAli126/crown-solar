@@ -14,13 +14,13 @@ function EnergyLoadCalculator() {
   const [washingMachine, setWashingMachine] = useState('')
   const [waterPump, setWaterPump] = useState('')
   const [iron, setIron] = useState('')
-  const [splitACOne, setSplitACOne] =useState('')
-  const [spliteACTwo, setSpliteACTwo] =useState('')
-  const [splitACThree, setSplitACThree] =useState('')
-  const [splitACFour, setSplitACFour] =useState('')
-  const [inverterACOne, setInverterACOne] =useState('')
-  const [inverterACTwo, setInverterACTwo] =useState('')
-  const [inverterACThree, setInverterACThree] =useState('')
+  const [splitACOne, setSplitACOne] = useState('')
+  const [spliteACTwo, setSpliteACTwo] = useState('')
+  const [splitACThree, setSplitACThree] = useState('')
+  const [splitACFour, setSplitACFour] = useState('')
+  const [inverterACOne, setInverterACOne] = useState('')
+  const [inverterACTwo, setInverterACTwo] = useState('')
+  const [inverterACThree, setInverterACThree] = useState('')
   const [energyGenerated, setEnergyGenerated] = useState(0);
 
   const calculateEnergyGenerated = () => {
@@ -45,8 +45,8 @@ function EnergyLoadCalculator() {
     const totalInverterACtwo = inverterACTwo * 1500
     const totalInverterACthree = inverterACThree * 2000
     const energyGenerated = totalTubeLight + totalEnergySaver + totalLedBlub + totalFan + totalTvs + totalledTv + totalComputer + totalRefrigerator + totalFreezer +
-     totalWashingMachine + totalWaterPump + totalIron + totalSplitACone + totalSplitACtwo + totalSplitACthree + totalSplitACfour + totalInverterACone + totalInverterACtwo + totalInverterACthree;
-     const totalEngery = parseInt(energyGenerated) / 1000;
+      totalWashingMachine + totalWaterPump + totalIron + totalSplitACone + totalSplitACtwo + totalSplitACthree + totalSplitACfour + totalInverterACone + totalInverterACtwo + totalInverterACthree;
+    const totalEngery = parseInt(energyGenerated) / 1000;
     setEnergyGenerated(totalEngery);
   };
 
@@ -61,7 +61,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Tubelights:
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Tubelight = 40W*"
                 value={tubeLight}
@@ -71,7 +72,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Energy Saver:
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Energy Saver = 25W*"
                 value={energySaver}
@@ -81,7 +83,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of LED Bulb:
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                          [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 LED Bulb = 7W*"
                 value={ledBlub}
@@ -91,7 +94,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Fans
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                          [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Fan = 100W*"
                 value={fan}
@@ -101,7 +105,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of TVs
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 TVs = 250W*"
                 value={tvs}
@@ -111,7 +116,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of LED TV 32
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 LED TV 32 = 50W*"
                 value={ledTv}
@@ -121,7 +127,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Computer
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Computer = 250W*"
                 value={computer}
@@ -131,7 +138,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Refrigerator
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Refrigerator = 350W*"
                 value={refrigerator}
@@ -141,7 +149,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Freezer
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Freezer = 350W*"
                 value={freezer}
@@ -151,7 +160,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Washing Machine
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Washing Machine = 250W*"
                 value={washingMachine}
@@ -160,9 +170,10 @@ function EnergyLoadCalculator() {
             </label>
 
             <label className='px-4 md:px-2 lg:px-2'>
-               Water Pump 1 HP
+              Water Pump 1 HP
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Water Pump 1 HP = 700W*"
                 value={waterPump}
@@ -172,7 +183,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Iron
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                          [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Iron = 1000W*"
                 value={iron}
@@ -182,7 +194,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Split AC 1 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                          [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Split AC 1 ton = 1800W*"
                 value={splitACOne}
@@ -192,7 +205,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Split AC 1.5 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Split AC 1.5 ton = 2400W*"
                 value={spliteACTwo}
@@ -202,7 +216,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Split AC 2 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Split AC 2 ton = 3000W*"
                 value={splitACThree}
@@ -212,8 +227,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Split AC 3.5 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                type="number"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 placeholder="1 Split AC 3.5 ton = 7500W*"
                 value={splitACFour}
                 onChange={(e) => setSplitACFour(e.target.value)}
@@ -222,7 +237,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Inverter AC 1 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Inverter AC 1 ton = 1000W*"
                 value={inverterACOne}
@@ -232,7 +248,8 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Inverter AC 1.5 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                         [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Inverter AC 1.5 ton = 1500W*"
                 value={inverterACTwo}
@@ -242,14 +259,15 @@ function EnergyLoadCalculator() {
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Inverter AC 2 ton
               <input
-                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline
+                        [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                 type="number"
                 placeholder="1 Inverter AC 2 ton = 2000W*"
                 value={inverterACThree}
                 onChange={(e) => setInverterACThree(e.target.value)}
               />
             </label>
-   
+
 
 
             {/* <div>

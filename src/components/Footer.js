@@ -1,9 +1,9 @@
 import React from 'react';
-import img from '../../public/images/logogreen.png';
+import img from '../../public/images/logo_green.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import SocialLink from '@/components/SocialLink'
-import { faLinkedin, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -18,7 +18,7 @@ const Footer = () => {
                         <div className="col-span-12 lg:col-span-4">
                             <div className="box-border p-8 bg-inherit text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                                 <div className="flex justify-center items-center">
-                                    <Image src={img} alt="gfg" />
+                                    <Image src={img} alt="gfg" width={400} height={300}  />
                                 </div>
                                 <div className='text-center text-md font-bold text-gray-600'>
                                     <h5>Crown your roof with Solar</h5>
@@ -49,6 +49,10 @@ const Footer = () => {
                                         <SocialLink href="https://www.instagram.com/crownsolar.co/" size="xl" className="flex justify-center items-center text-green-700 hover:text-gray-500 rounded-full transition duration-150 ease-in-out"
                                          icon={faInstagram} />
                                     </li>
+                                    <li className="ml-4">
+                                        <SocialLink href="https://www.youtube.com/@crowncrlf" size="xl" className="flex justify-center items-center text-green-700 hover:text-gray-500 rounded-full transition duration-150 ease-in-out"
+                                         icon={faYoutube} />
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -60,13 +64,13 @@ const Footer = () => {
                             <h6 className="text-green-800 text-xl font-bold mb-4">CONTACT US</h6>
                             <ul className="text-md">
                                 <li className="mb-2">
-                                    <Link href="#" className="text-green-800 font-bold">021 111 000 348</Link>
+                                    <p className="text-green-800 font-bold">021 111 000 348</p>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="#" className="text-green-800 text-md font-medium mb-6">Plot # 672-673, Building 4, Deh Joreji Taluka,</Link>
+                                    <p className="text-green-800 text-md font-medium">Plot # 672-673, Building 4, Deh Joreji Taluka,</p>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="#" className="text-green-800">District Malir, Bin Qasim,  Karachi</Link>
+                                    <p className="text-green-800">District Malir, Bin Qasim,  Karachi</p>
                                 </li>
                             </ul>
                         </div>

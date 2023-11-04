@@ -5,20 +5,21 @@ import img from '../../public/images/solar-panel-cut.png';
 const Services = () => {
 
     return (
-        <div className="w-full flex items-center justify-center text-white">
-            <div className="w-full text-center lg:text-left py-12 md:px-36 lg:px-36 px-3 flex lg:justify-between items-center">
+        <div className="w-full flex items-center justify-center text-white bg-green-50">
+            <div className="w-full text-center lg:text-left py-12 md:px-40 lg:px-40 px-3 flex lg:justify-between items-center">
                 <div className="w-full flex flex-col lg:flex-row lg:justify-around">
                     <div className="px-4" data-aos="fade-down" data-aos-delay="600">
                         <h2 className="my-2 text-center text-2xl text-green-700 uppercase font-bold">Tier 1 Manufacturer</h2>
                         <div className='flex justify-center'>
-                            <div className='w-24 border-b-4 border-green-700 mb-8'></div>
+                            <div className='w-24 border-b-4 border-green-700 mb-4'></div>
                         </div>
+                        <p className="mb-4 text-center text-lg text-black font-medium">Monocrystalline 550W Solar Panel</p>
 
                         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="bg-white bg-opacity-90 transition-all ease-in-out duration-400 overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
-                                <div className="m-2 text-justify text-sm">
-                                    <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Parameters</h4>
+                            <div className="bg-white bg-opacity-90 transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
+                                <div className="m-2 text-justify">
+                                    <h4 className="font-semibold my-4 text-lg md:text-xl text-center mb-4">Parameters</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     182 Mm Wafers
                                 </p> */}
@@ -32,9 +33,9 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-white bg-opacity-90 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
-                                <div className="m-2 text-justify text-sm">
-                                    <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Technical Specs</h4>
+                            <div className="bg-white bg-opacity-90 transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
+                                <div className="m-2 text-justify">
+                                    <h4 className="font-semibold my-4 text-lg md:text-xl text-center mb-4">Technical Specs</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     Low Voltage Design
                                 </p> */}
@@ -50,9 +51,9 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className=" bg-white bg-opacity-90 transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
-                                <div className="m-2 text-justify text-sm">
-                                    <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Warranty</h4>
+                            <div className=" bg-white bg-opacity-90 transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
+                                <div className="m-2 text-justify">
+                                    <h4 className="font-semibold my-4 text-lg md:text-xl text-center mb-4">Warranty</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     Reinforced Structural Design
                                 </p> */}
