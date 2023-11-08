@@ -18,7 +18,7 @@ function InstallmentComponent() {
                             </div>
                         </div>
                         <div className="flex flex-col justify-center">
-                            <video className="rounded-lg" src={(require('../../public/videos/solarFix.mp4'))} autoPlay loop muted />
+                            <video className="rounded-lg" src=('/videos/solarFix.mp4') autoPlay loop muted />
                         </div>
                     </div>
                 </div>
