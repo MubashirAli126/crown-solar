@@ -12,7 +12,7 @@ function PerformanceCertified() {
                         <div>
                             <p className='my-3 mr-4 text-base text-black font-medium'>
                                 Crown your roof with Crown Solar Monocrystalline Panels with state of the art Tier 1 Grade Technology superior to all being offered currently in Pakistan. No longer you would have to worry on
-                                faulty parameters, malfunctioning panels, inadequate discharge.
+                                faulty parameters,  malfunctioning panels, inadequate discharge.
                             </p>
                         </div>
                     </div>
