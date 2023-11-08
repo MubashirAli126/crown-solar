@@ -17,9 +17,9 @@ const Services = () => {
 
                         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="bg-white bg-opacity-90 transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
+                            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                                 <div className="m-2 text-justify">
-                                    <h4 className="font-semibold my-4 text-lg md:text-xl text-center mb-4">Parameters</h4>
+                                    <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Parameters</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     182 Mm Wafers
                                 </p> */}
@@ -33,9 +33,9 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className="bg-white bg-opacity-90 transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
+                            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
                                 <div className="m-2 text-justify">
-                                    <h4 className="font-semibold my-4 text-lg md:text-xl text-center mb-4">Technical Specs</h4>
+                                    <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Technical Specs</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     Low Voltage Design
                                 </p> */}
@@ -51,9 +51,9 @@ const Services = () => {
                                 </div>
                             </div>
 
-                            <div className=" bg-white bg-opacity-90 transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
+                            <div className=" bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                                 <div className="m-2 text-justify">
-                                    <h4 className="font-semibold my-4 text-lg md:text-xl text-center mb-4">Warranty</h4>
+                                    <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Warranty</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     Reinforced Structural Design
                                 </p> */}

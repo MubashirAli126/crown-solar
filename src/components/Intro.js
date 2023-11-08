@@ -10,30 +10,30 @@ const Intro = () => {
                 <section data-aos="zoom-in-down">
                     <div className="my-4" style={{ textAlign: '-webkit-center' }}>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                            <Image alt="card img" className="rounded-t float-right self-center" src={img} width={200} height={250} />
+                            <Image alt="card img" className="rounded-t float-right self-center" src={img} width={150} height={200} />
                         </div>
-                        <h2 className="mt-3 mx-12 text-center text-xl lg:text-3xl font-semibold text-green-700">A Product of Crown Group of Companies</h2>
+                        <h2 className="mt-3 mx-12 text-center text-xl lg:text-2xl font-semibold text-green-700">A Product of Crown Group of Companies</h2>
                     </div>
 
                     <div className="px-4 lg:px=40 md:px-40" data-aos="fade-down" data-aos-delay="600">
                     <div>
                             <p className='my-3 text-base text-black font-medium text-center'>
                                 Crown Group is a leading supplier of two and three-wheeler automotive spare parts in Pakistan. With the largest dealer network in the country,
-                                the company has established a strong reputation for quality and reliability in the automotive industry. Crown Group’s extensive range of products
+                                the company has established a strong reputation for quality and reliability in the automotive industry. Crown Group extensive range of products
                                 includes everything from engines, suspension systems, brakes, and other essential parts that keep vehicles running smoothly on the roads. In recent years,
                                 Crown Group has diversified its business by expanding into the solar panel industry. The company recognized the growing demand for renewable energy in Pakistan and
-                                saw an opportunity to reach the masses by providing affordable and reliable solar solutions. Crown Group’s solar panels are designed to meet the needs of residential,
+                                saw an opportunity to reach the masses by providing affordable and reliable solar solutions. Crown Group solar panels are designed to meet the needs of residential,
                                 commercial, and industrial customers, offering high efficiency and durability at a competitive price. By diversifying into the solar panel industry, Crown Group has expanded
-                                its product portfolio and has positioned itself as a leading player in the renewable energy sector in Pakistan. The company’s commitment to quality and innovation has helped
+                                its product portfolio and has positioned itself as a leading player in the renewable energy sector in Pakistan. The company commitment to quality and innovation has helped
                                 it to gain a strong foothold in both the automotive and solar industries, and to establish itself as a trusted partner for customers looking for reliable and affordable
                                 solutions.
                             </p>
                         </div>
-                        <div>
+                        {/* <div>
                             <p className='my-3 text-base text-center text-black font-medium'>We take responsibility for building custom software solutions that caters for automation of your business processes and improve efficiency.</p>
-                        </div>
+                        </div> */}
                         <div className='text-center'>
-                            <Link href="https://www.crowngroup.com.pk/" className="w-auto text-white bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center px-6 py-2 my-4 text-medium shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
+                            <Link href="https://www.crowngroup.com.pk/" className="w-auto text-white bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center px-6 py-2 my-4 text-base font-medium shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Learn More About Crown Group
                                 <svg className="w-4 h-4 ml-1 group-hover: translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                             </Link>

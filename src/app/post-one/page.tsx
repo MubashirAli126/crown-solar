@@ -1,13 +1,17 @@
 import Image from 'next/image';
 import image2 from '../../../public/images/image2.png';
+import Link from 'next/link';
 
 function page() {
     return (
         <div className="w-full flex items-center justify-center text-white blog">
+
             <div className="w-full text-center lg:text-left py-44 px-4 md:px-8 lg:px-8 flex lg:justify-between items-center">
                 <div className="w-full flex items-center justify-center text-white bg-white rounded-lg shadow-2xl">
                     <div className="m-auto p-2 md:p-12 h-5/6" id='about' >
-
+                        <div className='text-right'><Link href="/blog" className="text-white bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center w-50 px-6 py-3 text-base shadow-xl rounded-xl">
+                            Back </Link>
+                        </div>
                         <div className=" flex flex-col lg:mx-4 justify-center items-center">
                             <Image alt="card img" className="lg:w-1/2 justify-center" src={image2} />
                         </div>

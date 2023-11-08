@@ -1,14 +1,12 @@
 "use client"
 
 import React, { useState } from 'react';
-import { useDocTitle } from '@/components/CustomHook';
 // import emailjs from 'emailjs-com';
 import Notiflix from 'notiflix';
 import SocialLink from '@/components/SocialLink'
 import { faLinkedin, faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 function Page() {
-    useDocTitle('MLD | Molad e Konsult - Send us a message')
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')

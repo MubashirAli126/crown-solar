@@ -32,7 +32,7 @@ const Footer = () => {
                                 Social Media Links.
                             </div>
 
-                            <div className="text-md font-medium mb-6">
+                            <div className="text-base font-medium mb-6">
                                 Follow us on social media.
                             </div>
                             <div className="mx-auto text-center mt-2">
@@ -67,7 +67,7 @@ const Footer = () => {
                                     <p className="text-green-800 font-bold">021 111 000 348</p>
                                 </li>
                                 <li className="mb-2">
-                                    <p className="text-green-800 text-md font-medium">Plot # 672-673, Building 4, Deh Joreji Taluka,</p>
+                                    <p className="text-green-800 text-base font-medium">Plot # 672-673, Building 4, Deh Joreji Taluka,</p>
                                 </li>
                                 <li className="mb-2">
                                     <p className="text-green-800">District Malir, Bin Qasim,  Karachi</p>
@@ -82,7 +82,7 @@ const Footer = () => {
                             <div className="text-sm text-gray-600 font-semibold py-1">
                                 Copyright &copy; {new Date().getFullYear()}{"  "}
                                 <Link
-                                    href="#"
+                                    href="/"
                                     className=" hover:text-gray-900"
                                 >
                                     crownsolar.co

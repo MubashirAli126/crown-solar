@@ -13,7 +13,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">01</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 182 mm Wafers
                             </p>
                         </div>
@@ -22,7 +22,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">02</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 Low Voltage Design
                             </p>
                         </div>
@@ -31,7 +31,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">03</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 Reinforced Structural Design
                             </p>
                         </div>
@@ -40,7 +40,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">04</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 Non-Destructive Cutting Edge Tehnology
                             </p>
                         </div>
@@ -49,7 +49,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">05</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 High Density Packaging
                             </p>
                         </div>
@@ -58,7 +58,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">06</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 High Conversion Rate
                             </p>
                         </div>
@@ -67,7 +67,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4 ">07</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 Integrated Delivery Solution
                             </p>
                         </div>
@@ -76,7 +76,7 @@ function TechnicalDetail() {
                     <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
                         <div className="m-2">
                             <h4 className="font-medium my-4 text-lg md:text-2xl mb-4">08</h4>
-                            <p className="text-lg font-semibold leading-5 mb-4">
+                            <p className="text-lg font-medium leading-5 mb-4">
                                 Easy To Install
                             </p>
                         </div>
