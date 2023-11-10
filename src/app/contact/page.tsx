@@ -86,7 +86,7 @@ function Page() {
                                 <h1 className="font-bold text-center lg:text-left text-green-700 uppercase text-2xl">Get in touch</h1>
                             </div>
                             <div className='flex'>
-                                <p className='font-medium text-center lg:text-left text-black text-base'>Please feel free to contact us directly by submitting your question via the contact form below, and we will get back to you within 48 hours. You can event send us a detailed email at info@crownsolar.co in terms extensive dealership and showroom deals.</p>
+                                <p className='font-medium text-left text-black text-base'>Please feel free to contact us directly by submitting your question via the contact form below, and we will get back to you within 48 hours. You can event send us a detailed email at info@crownsolar.co in terms extensive dealership and showroom deals.</p>
                             </div>
                             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                                 <div>
@@ -189,7 +189,7 @@ function Page() {
                             <div className="flex my-4 w-2/3 lg:w-1/2">
                                 <SocialLink size='xl' className="px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
                                     href="https://www.linkedin.com/company/crowncrlf/" icon={faLinkedin} />
-                                <SocialLink className=" px-3flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
+                                <SocialLink className=" px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
                                     size='xl' href="https://www.facebook.com/crownsolar.co" icon={faFacebook} />
                                 <SocialLink className=" px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
                                     size='xl' href="https://www.instagram.com/crownsolar.co/" icon={faInstagram} />

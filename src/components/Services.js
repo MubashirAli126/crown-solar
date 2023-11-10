@@ -24,11 +24,11 @@ const Services = () => {
                                     182 Mm Wafers
                                 </p> */}
                                     <p className="text-base font-medium">
-                                        Wattage : 550W   <br />
-                                        Open Circuit Voltage : 49.9V   <br />
-                                        Efficiency : 22.5%  <br />
-                                        Max Power NOCT : 416W  <br />
-                                        Open Circuit Volt NOCT : 6.7V  <br />
+                                        <span className="text-base font-semibold">Wattage</span> : 550w   <br />
+                                        <span className="text-base font-semibold">Open Circuit Voltage</span> : 49.9v   <br />
+                                        <span className="text-base font-semibold">Efficiency</span> : 22.5%  <br />
+                                        <span className="text-base font-semibold">Max Power NOCT</span>  : 416w  <br />
+                                        <span className="text-base font-semibold">Open Circuit Volt NOCT</span> : 6.7v  <br />
                                     </p>
                                 </div>
                             </div>
@@ -40,34 +40,32 @@ const Services = () => {
                                     Low Voltage Design
                                 </p> */}
                                     <p className="text-base font-medium">
-                                        Weight : 28.5 kg   <br />
-                                        Max Voltage : 1500V  <br />
-                                        Build : Aluminum Alloy  <br />
-                                        Connector : MC4 Compatible  <br />
-                                        Fuse Current :20A <br />
-                                        Junction Box : IP68  <br />
-                                        Dimensions : 2279mm*1134mm*35mm  <br />
+                                    <span className="text-base font-semibold">Weight</span> : 28.5 kg   <br />
+                                    <span className="text-base font-semibold">Max Voltage</span> : 1500v  <br />
+                                    <span className="text-base font-semibold">Build</span> : Aluminum Alloy  <br />
+                                    <span className="text-base font-semibold">Connector</span> : MC4 Compatible  <br />
+                                    <span className="text-base font-semibold">Fuse Current</span> : 20A <br />
+                                    <span className="text-base font-semibold">Junction Box</span> : IP68  <br />
+                                    <span className="text-base font-semibold">Dimensions</span> : 2279mm*1134mm*35mm  <br />
                                     </p>
                                 </div>
                             </div>
 
                             <div className=" bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
-                                <div className="m-2 text-justify">
+                                <div className="m-2">
                                     <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Warranty</h4>
                                     {/* <p className="text-lg font-bold leading-5 text-center mb-4">
                                     Reinforced Structural Design
                                 </p> */}
                                     <p className="text-base font-medium">
-                                        Product : 12 Years  <br />
-                                        Power Output Linear : 25 Years  <br />
+                                    <span className="text-base font-semibold">Product</span> : 12 Years  <br />
+                                    <span className="text-base font-semibold">Power Output Linear</span> : 25 Years  <br />
                                         *Modules shown may be different than those included in final design.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>

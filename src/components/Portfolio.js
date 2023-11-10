@@ -19,12 +19,12 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-1">
                             <div className="m-2">
                                 <Image alt="card img" className="rounded-t group-hover:scale-[1.12] transition duration-1000 ease-in-out w-full" src={img1} />
-                                <h4 className="font-semibold my-4 text-lg md:text-xl ">Crown Solar Solutions</h4>
+                                <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl ">Crown Solar Solutions</h4>
                                 <p className="text-base font-medium h-auto">
                                     Crown Solar is a leading provider of solar panels in Pakistan. The company is backed by Crown Group of Companies, a leading two and three-wheeler automotive spare parts manufacturer in Pakistan since the last 20 years.
                                 </p>
-                                <div className="flex justify-center my-4">
-                                    <Link href="/post-one" className="text-white bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center w-50 px-6 py-3 my-1 text-base shadow-xl rounded-xl">
+                                <div className="flex my-4">
+                                    <Link href="/post-one" className="text-green-700 hover:text-gray-600 inline-flex items-center justify-center w-50 py-3 my-1 text-base">
                                         Read More
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
@@ -35,12 +35,12 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-1">
                             <div className="m-2">
                                 <Image alt="card img" className="rounded-t group-hover:scale-[1.12] transition duration-1000 ease-in-out w-full" src={img2} />
-                                <h4 className="font-semibold my-4 text-lg md:text-xl">The Importance of Solar Panels in Pakistan</h4>
+                                <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl">The Importance of Solar Panels in Pakistan</h4>
                                 <p className="text-base font-medium leading-5 h-auto ">
                                     Solar panels are a viable solution to Pakistan energy crisis. Solar panels are a renewable source of energy that can be used to generate electricity. They are also a clean source of energy that does not produce pollution.
                                 </p>
-                                <div className="flex justify-center my-4">
-                                    <Link href="/post-two" className="text-white bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center w-50 px-6 py-3 my-1 text-base shadow-xl rounded-xl">
+                                <div className="flex my-4">
+                                    <Link href="/post-two" className="text-green-700 hover:text-gray-600 inline-flex items-center justify-center w-50 py-3 my-1 text-base">
                                         Read More
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
@@ -51,12 +51,12 @@ const Portfolio = () => {
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden black hover:scale-105 rounded-lg shadow-2xl p-1">
                             <div className="m-2">
                                 <Image alt="card img" className="rounded-t group-hover:scale-[1.12] transition duration-1000 ease-in-out w-full" src={img3} />
-                                <h4 className="font-semibold my-4 text-lg md:text-xl">Monocrystalline Solar Panels</h4>
+                                <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl">Monocrystalline Solar Panels</h4>
                                 <p className="text-base font-medium leading-5 h-auto">
                                     Third world countries are often faced with a number of challenges, including a lack of access to reliable and affordable energy. This can have a significant impact on the quality of life for people in these countries, as well as their ability to develop economically.
                                 </p>
-                                <div className="flex justify-center my-4">
-                                    <Link href="/post-three" className="text-white bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center w-50 px-6 py-3 my-1 text-base shadow-xl rounded-xl">
+                                <div className="flex my-4">
+                                    <Link href="/post-three" className="text-green-700 hover:text-gray-600 inline-flex items-center justify-center w-50 py-3 my-1 text-base">
                                         Read More
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>

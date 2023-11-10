@@ -7,7 +7,7 @@ function TrustBanner() {
             <section>
                 <div className="m-auto p-8 md:px-40 h-5/6">
                     <div className="flex flex-col-reverse lg:flex-row justify-between lg:text-left" data-aos="zoom-out">
-                        <div className=" flex flex-col justify-center">
+                        <div className=" flex lg:w-10/12 flex-col justify-center">
                             <video className="rounded-lg" src='videos/solaranimated.mp4' autoPlay loop muted />
                             {/* <video className="rounded-lg" src={(require('../../public/videos/solarFix.mp4'))} autoPlay loop muted /> */}
                         </div>
