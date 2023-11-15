@@ -1,14 +1,14 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import img from '../../public/images/solar-panel-cut.png';
+// import Link from 'next/link';
+// import Image from 'next/image';
+// import img from '../../public/images/solar-panel-cut.png';
 
 const Services = () => {
 
     return (
-        <div className="w-full flex items-center justify-center text-white bg-green-50">
-            <div className="w-full text-center lg:text-left py-12 md:px-40 lg:px-40 px-3 flex lg:justify-between items-center">
+        <div className="w-full flex max-w-screen-xl max-w-screen-lg max-w-screen-smitems-center justify-center text-white">
+            <div className="w-full text-center lg:text-left py-12 px-3 flex lg:justify-between items-center">
                 <div className="w-full flex flex-col lg:flex-row lg:justify-around">
-                    <div className="px-4" data-aos="fade-down" data-aos-delay="600">
+                    <div data-aos="fade-down" data-aos-delay="600">
                         <h2 className="my-2 text-center text-2xl text-green-700 uppercase font-bold">Tier 1 Manufacturer</h2>
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-green-700 mb-4'></div>
@@ -17,51 +17,155 @@ const Services = () => {
 
                         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
-                                <div className="m-2 text-justify">
-                                    <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Parameters</h4>
-                                    {/* <p className="text-lg font-bold leading-5 text-center mb-4">
-                                    182 Mm Wafers
-                                </p> */}
-                                    <p className="text-base font-medium">
-                                        <span className="text-base font-semibold">Wattage</span> : 550w   <br />
-                                        <span className="text-base font-semibold">Open Circuit Voltage</span> : 49.9v   <br />
-                                        <span className="text-base font-semibold">Efficiency</span> : 22.5%  <br />
-                                        <span className="text-base font-semibold">Max Power NOCT</span>  : 416w  <br />
-                                        <span className="text-base font-semibold">Open Circuit Volt NOCT</span> : 6.7v  <br />
-                                    </p>
+                            <div className="transition-all ease-in-out duration-400 overflow-hidden text-black rounded-lg shadow-2xl">
+                                <h4 className="font-semibold text-black my-4 text-lg md:text-xl text-center mb-4">Parameters</h4>
+
+                                <div class="relative overflow-x-auto shadow-md">
+                                    <table class="w-full text-base text-left rtl:text-right text-gray-500 dark:text-gray-700">
+                                        <tbody>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Wattage
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    550w
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-200 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Open Circuit Voltage
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    49.9v
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Efficiency
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    22.5%
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-200 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Max Power NOCT
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    416w
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Open Circuit Volt NOCT
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    6.7v
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
 
-                            <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3 min-h-max">
-                                <div className="m-2 text-justify">
-                                    <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Technical Specs</h4>
-                                    {/* <p className="text-lg font-bold leading-5 text-center mb-4">
-                                    Low Voltage Design
-                                </p> */}
-                                    <p className="text-base font-medium">
-                                    <span className="text-base font-semibold">Weight</span> : 28.5 kg   <br />
-                                    <span className="text-base font-semibold">Max Voltage</span> : 1500v  <br />
-                                    <span className="text-base font-semibold">Build</span> : Aluminum Alloy  <br />
-                                    <span className="text-base font-semibold">Connector</span> : MC4 Compatible  <br />
-                                    <span className="text-base font-semibold">Fuse Current</span> : 20A <br />
-                                    <span className="text-base font-semibold">Junction Box</span> : IP68  <br />
-                                    <span className="text-base font-semibold">Dimensions</span> : 2279mm*1134mm*35mm  <br />
-                                    </p>
+                            <div className="transition-all ease-in-out duration-400 overflow-hidden text-black rounded-lg shadow-2xl">
+                                <h4 className="font-semibold text-black my-4 text-lg md:text-xl text-center mb-4">Technical Specs</h4>
+
+                                <div class="relative overflow-x-auto shadow-md">
+                                    <table class="w-full text-base text-left rtl:text-right text-gray-500 dark:text-gray-700">
+                                        <tbody>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Weight
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    28.5 kg
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-200 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Max Voltage
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    1500v
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Build
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    Aluminum Alloy
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-200 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Connector
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    MC4 Compatible
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Fuse Current
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    20A
+                                                </td>
+                                            </tr>
+
+                                            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-200 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Junction Box
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    IP68
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                    Dimensions
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                    2279mm*1134mm*35mm
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
 
-                            <div className=" bg-white transition-all ease-in-out duration-400  overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">
-                                <div className="m-2">
-                                    <h4 className="font-semibold text-green-700 my-4 text-lg md:text-xl text-center mb-4">Warranty</h4>
-                                    {/* <p className="text-lg font-bold leading-5 text-center mb-4">
-                                    Reinforced Structural Design
-                                </p> */}
-                                    <p className="text-base font-medium">
-                                    <span className="text-base font-semibold">Product</span> : 12 Years  <br />
-                                    <span className="text-base font-semibold">Power Output Linear</span> : 25 Years  <br />
-                                        *Modules shown may be different than those included in final design.
-                                    </p>
+                            <div className="transition-all ease-in-out duration-400 overflow-hidden text-black rounded-lg shadow-2xl">
+                                <h4 className="font-semibold text-black my-4 text-lg md:text-xl text-center mb-4">Warranty</h4>
+
+                                <div class="relative overflow-x-auto shadow-md">
+                                    <table class="w-full text-base text-left rtl:text-right text-gray-500 dark:text-gray-700">
+                                        <tbody>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                Product
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                12 Years
+                                                </td>
+                                            </tr>
+                                            <tr class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-200 even:dark:bg-gray-200 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                Power Output Linear
+                                                </th>
+                                                <td class="px-6 py-4">
+                                                25 Years
+                                                </td>
+                                            </tr>
+                                            {/* <tr class="odd:bg-white odd:dark:bg-gray-50 even:bg-gray-50 even:dark:bg-gray-50 dark:border-gray-700">
+                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
+                                                Modules shown may be different than those included in final design"
+                                                </th>
+                                            </tr> */}
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -69,67 +173,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-
-        // <div id="services" className="bg-gray-100 py-4" >
-        //     <section data-aos="zoom-in-down">
-        //         <div className="my-4 py-4">
-        //             <h2 className="my-2 text-center text-3xl text-green-700 uppercase font-bold">Tier 1 Manufacturer</h2>
-
-        //             <div className='flex justify-center'>
-        //                 <div className='w-24 border-b-4 border-green-700'></div>
-        //             </div>
-        //             <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-green-700">Monocrystalline 550W Solar Panel</h2>
-        //         </div>
-
-        //         <div className="px-12" data-aos="fade-down" data-aos-delay="600">
-        //             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        //                 <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 rounded-lg shadow-2xl p-3 group">
-        //                     <div className="m-2 text-justify text-sm">
-        //                         <Image alt="card img" className="rounded-t group-hover:scale-[1.12] transition duration-1000 ease-in-out w-full" src={img1} />
-        //                         <h2 className="font-semibold my-4 text-2xl text-center">Parameters</h2>
-        //                         <p className="text-sm font-semibold">
-        //                             Wattage : 550W   <br />
-        //                             Open Circuit Voltage : 49.9V   <br />
-        //                             Efficiency : 22.5%  <br />
-        //                             Max Power NOCT : 416W  <br />
-        //                             Open Circuit Volt NOCT : 6.7V  <br />
-        //                         </p>
-        //                     </div>
-        //                 </div>
-
-        //                 <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 rounded-lg shadow-2xl p-3 group">
-        //                     <div className="m-2 text-justify text-sm">
-        //                         <Image alt="card img" className="rounded-t group-hover:scale-[1.12] transition duration-1000 ease-in-out w-full" src={img3} />
-        //                         <h2 className="font-semibold my-4 text-2xl text-center">Technical Specs</h2>
-        //                         <p className="text-sm font-semibold">
-        //                             Weight : 28.5 kg   <br />
-        //                             Max Voltage : 1500V  <br />
-        //                             Build : Aluminum Alloy  <br />
-        //                             Connector : MC4 Compatible  <br />
-        //                             Fuse Current :20A <br />
-        //                             Junction Box : IP68  <br />
-        //                             Dimensions : 2279mm*1134mm*35mm  <br />
-        //                         </p>
-        //                     </div>
-        //                 </div>
-
-        //                 <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 rounded-lg shadow-2xl p-3 group">
-        //                     <div className="m-2 text-justify text-sm">
-        //                         <Image alt="card img" className="rounded-t group-hover:scale-[1.12] transition duration-1000 ease-in-out w-full" src={img2} />
-        //                         <h2 className="font-semibold my-4 text-2xl text-center ">Warranty</h2>
-        //                         <p className="text-sm font-semibold">
-        //                             Product : 12 Years  <br />
-        //                             Power Output Linear : 25 Years  <br />
-        //                             *Modules shown may be different than those included in final design.
-        //                         </p>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </section>
-
-        // </div>
+       
     )
 }
 

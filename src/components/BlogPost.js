@@ -6,13 +6,11 @@ import Image from 'next/image';
 
 function BlogPost() {
     return (
-        <div className="w-full flex items-center justify-center text-white blog">
-            <div className="w-full text-center lg:text-left py-56 px-4 md:px-32 lg:px-32 flex lg:justify-between items-center">
-                <div className="w-full flex flex-col lg:flex-row lg:justify-around">
+        <div className="m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm w-full flex items-center justify-center text-black">
+            <div className="w-full text-center lg:text-left py-8 px-4 flex lg:justify-between items-center">
+                <div className="w-full flex flex-col lg:flex-row lg:justify-around">    
                     <div className=" text-center">
-
-                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                             <div className="rounded-2xl border-white-800 border-2 group">
                                 <Image alt="card img" className=" transition duration-1000 ease-in-out w-full" src={img1} />
                                 <div className='m-2'>
@@ -30,8 +28,8 @@ function BlogPost() {
                             </div>
 
                             <div className="rounded-2xl border-white-800 border-2 group">
-                                    <Image alt="card img" className="transition duration-1000 ease-in-out w-full" src={img2} />
-                                    <div className="m-2">
+                                <Image alt="card img" className="transition duration-1000 ease-in-out w-full" src={img2} />
+                                <div className="m-2">
                                     <h2 className="font-semibold my-4 text-xl text-left">Crown Solar Solutions: Monocrystalline Solar Panels</h2>
                                     <p className="text-base font-medium text-left">
                                         Crown Solar is a leading provider of solar panels in Pakistan. The company is backed by Crown Group of Companies, a leading two and three-wheeler automotive spare parts manufacturer in Pakistan since the last 20 years.
@@ -46,8 +44,8 @@ function BlogPost() {
                             </div>
 
                             <div className="rounded-2xl border-white-800 border-2 group">
-                                    <Image alt="card img" className=" transition duration-1000 ease-in-out w-full" src={img3} />
-                                    <div className="m-2">
+                                <Image alt="card img" className=" transition duration-1000 ease-in-out w-full" src={img3} />
+                                <div className="m-2">
                                     <h2 className="font-semibold my-4 text-xl text-left">Crown Solar Solutions: Monocrystalline Solar Panels</h2>
                                     <p className="text-base font-medium text-left">
                                         Third world countries are often faced with a number of challenges, including a lack of access to reliable and affordable energy. This can have a significant impact on the quality of life for people in these countries, as well as their ability to develop economically.

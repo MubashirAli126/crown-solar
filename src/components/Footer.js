@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <div className="footer max-w-full mx-auto px-4 sm:px-6 bg-gray-100 border-t border-b py-30">
+                <div className="footer max-w-full mx-auto px-4 sm:px-6 border-t border-b py-30">
 
                     {/* Top area: Blocks */}
                     <div className="grid sm:grid-cols-12 gap-5 py-8 md:py-8 border-t border-gray-200 lg:ml-11">
@@ -20,7 +20,7 @@ const Footer = () => {
                                 <div className="flex justify-center items-center">
                                     <Image src={img} alt="gfg" width={400} height={300}  />
                                 </div>
-                                <div className='text-center text-md font-bold text-gray-600'>
+                                <div className='text-center text-md font-bold text-gray-800'>
                                     <h5>Crown your roof with Solar</h5>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
 
                     <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
                         <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
-                            <div className="text-sm text-gray-600 font-semibold py-1">
+                            <div className="text-sm text-gray-800 font-semibold py-1">
                                 Copyright &copy; {new Date().getFullYear()}{"  "}
                                 <Link
                                     href="/"

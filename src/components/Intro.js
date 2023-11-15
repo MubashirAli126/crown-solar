@@ -6,18 +6,22 @@ import Image from 'next/image';
 const Intro = () => {
     return (
         <>
-            <div className="text-center" >
+            <div className="mx-auto md:my-8 lg:my-8 text-center max-w-screen-xl max-w-screen-lg max-w-screen-sm" >
                 <section data-aos="zoom-in-down">
                     <div className="my-4" style={{ textAlign: '-webkit-center' }}>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
                             <Image alt="card img" className="rounded-t float-right self-center" src={img} width={150} height={200} />
                         </div>
-                        <h2 className="mt-3 mx-12 text-center text-xl lg:text-2xl font-semibold text-green-700">A Product of Crown Group of Companies</h2>
+                        <h2 className="mt-3 mx-12 text-center text-xl lg:text-2xl font-semibold text-green-700 uppercase">A Product of Crown Group of Companies</h2>
+                        <div className='flex justify-center'>
+                            <div className='w-24 border-b-4 border-green-700'></div>
+                        </div>
+                        {/* <h2 className="mt-3 mx-12 text-center text-xl lg:text-2xl font-semibold text-green-700">A Product of Crown Group of Companies</h2> */}
                     </div>
 
-                    <div className="px-4 lg:px=40 md:px-40" data-aos="fade-down" data-aos-delay="600">
-                    <div>
-                            <p className='my-3 text-base text-black font-medium text-center'>
+                    <div className="px-3" data-aos="fade-down" data-aos-delay="600">
+                        <div>
+                            <p className='my-3 text-base text-black font-medium text-left'>
                                 Crown Group is a leading supplier of two and three-wheeler automotive spare parts in Pakistan. With the largest dealer network in the country,
                                 the company has established a strong reputation for quality and reliability in the automotive industry. Crown Group extensive range of products
                                 includes everything from engines, suspension systems, brakes, and other essential parts that keep vehicles running smoothly on the roads. In recent years,

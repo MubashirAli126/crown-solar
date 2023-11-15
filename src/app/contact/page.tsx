@@ -5,6 +5,9 @@ import React, { useState } from 'react';
 import Notiflix from 'notiflix';
 import SocialLink from '@/components/SocialLink'
 import { faLinkedin, faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import ContactBanner from '@/components/shared/ContactBanner'
+import ContactSection from '@/components/ContactSection'
+import DistributorSection from '@/components/DistributorSection'
 
 function Page() {
     const [firstName, setFirstName] = useState('');
@@ -76,17 +79,18 @@ function Page() {
     // }
     return (
         <>
-            <div className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24 bg-gray-200">
-                <div className="container mx-auto my-8 px-4 lg:px-20" data-aos="zoom-in">
+            <ContactBanner />
+            <ContactSection />
+            <div className="m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm flex justify-center items-center w-full bg-white py-4 bg-gray-200">
+                <div className="container mx-auto my-4 px-4 lg:px-20" data-aos="zoom-in">
 
                     <form>
-
-                        <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+                        <div className="w-full bg-white p-8 my-4 md:px-12 rounded-2xl shadow-2xl">
                             <div className="flex">
                                 <h1 className="font-bold text-center lg:text-left text-green-700 uppercase text-2xl">Get in touch</h1>
                             </div>
                             <div className='flex'>
-                                <p className='font-medium text-left text-black text-base'>Please feel free to contact us directly by submitting your question via the contact form below, and we will get back to you within 48 hours. You can event send us a detailed email at info@crownsolar.co in terms extensive dealership and showroom deals.</p>
+                                <p className='font-medium text-left text-black text-base'>If you have any questions, please feel free to leave us a message</p>
                             </div>
                             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
                                 <div>
@@ -155,51 +159,9 @@ function Page() {
                             </div>
                         </div>
                     </form>
-                    <div
-                        className="w-full  lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-green-700 rounded-2xl">
-                        <div className="flex flex-col text-white">
-
-                            <div className="flex my-4 w-2/3 lg:w-full">
-                                <div className="flex flex-col">
-                                    <i className="fas fa-map-marker-alt pt-2 pr-2" />
-                                </div>
-                                <div className="flex flex-col">
-                                    <h2 className="text-lg">Office Address</h2>
-                                    <p className="text-lg font-normal">Plot # 672-673, Building 4, Deh Joreji Taluka, District Malir, Bin Qasim,  Karachi</p>
-                                </div>
-                            </div>
-
-                            <div className="flex my-4">
-                                <div className="flex flex-col">
-                                    <i className="fas fa-phone-alt pt-2 pr-2" />
-                                </div>
-
-                                <div className="flex flex-col">
-                                    <h2 className="text-lg">Call Us</h2>
-                                    <p className="text-lg font-normal">Tel: 021 111 000 348</p>
-
-                                    {/* <div className='mt-5'>
-                                        <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-white">info@mld.ng</p>
-                                    </div> */}
-
-                                </div>
-                            </div>
-
-                            <div className="flex my-4 w-2/3 lg:w-1/2">
-                                <SocialLink size='xl' className="px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
-                                    href="https://www.linkedin.com/company/crowncrlf/" icon={faLinkedin} />
-                                <SocialLink className=" px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
-                                    size='xl' href="https://www.facebook.com/crownsolar.co" icon={faFacebook} />
-                                <SocialLink className=" px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
-                                    size='xl' href="https://www.instagram.com/crownsolar.co/" icon={faInstagram} />
-                                <SocialLink className=" px-3 flex justify-center items-center text-white hover:text-gray-400 rounded-full transition duration-150 ease-in-out"
-                                    size='xl' href="https://www.youtube.com/@crowncrlf" icon={faYoutube} />
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+            <DistributorSection />
         </>
     )
 }

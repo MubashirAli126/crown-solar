@@ -8,6 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { AOSInit } from './aos'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import "tw-elements-react/dist/css/tw-elements-react.min.css";
 
 config.autoAddCss = false
 

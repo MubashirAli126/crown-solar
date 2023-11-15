@@ -17,9 +17,6 @@ function page() {
                         </div>
 
                         <div className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left" data-aos="fade-up">
-                            {/* <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
-                <img alt="card img" className="rounded-t float-right" src={img} />
-            </div> */}
                             <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full px-8" data-aos="zoom-in" data-aos-delay="500">
                                 <h3 className="text-2xl text-green-700 font-semibold text-center">The Importance of Solar Panels in Pakistan</h3>
                                 <div>

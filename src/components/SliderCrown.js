@@ -18,11 +18,11 @@ function SliderCrown() {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 3500,
+        autoplaySpeed: 3500,
         cssEase: "linear"
     };
     return (
@@ -30,34 +30,34 @@ function SliderCrown() {
             <div>
                 <Slider {...settings}>
                     <div>
-                        <Image src={slider1} alt="card img" />
+                        <Image className='p-2 rounded-lg' src={slider1} alt="card img" />
                     </div>
                     <div>
-                        <Image src={slider2} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider2} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider3} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider3} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider4} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider4} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider5} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider5} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider6} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider6} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider7} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider7} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider8} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider8} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider9} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider9} alt="card img"/>
                     </div>
                     <div>
-                        <Image src={slider10} alt="card img"/>
+                        <Image className='p-2 rounded-lg' src={slider10} alt="card img"/>
                     </div>
                 </Slider>
             </div>

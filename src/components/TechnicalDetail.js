@@ -1,13 +1,13 @@
 
 function TechnicalDetail() {
     return (
-        <div className="bg-gray-100 py-10" id='portfolio'>
+        <div className=" mx-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm py-10" id='portfolio'>
             <h2 className="my-2 text-center text-2xl text-green-700 uppercase font-bold">The Eight Technical Features</h2>
             <div className='flex justify-center'>
                 <div className='w-24 border-b-4 border-green-700 mb-4 md:mb-8 lg:mb-8'></div>
             </div>
 
-            <div className="px-4 md:px-40 lg:px-40" data-aos="fade-down" data-aos-delay="600">
+            <div className="px-4" data-aos="fade-down" data-aos-delay="600">
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
                     <div className="bg-white transition-all ease-in-out duration-400 overflow-hidden text-black hover:scale-105 rounded-lg shadow-2xl p-3">

@@ -31,7 +31,7 @@ function TechnicalProduct() {
                         <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">The Importance of Solar Panels in Pakistan</h4>
                             <p className="text-md font-medium leading-5 h-auto md:h-24">
-                                Solar panels are a viable solution to Pakistan’s energy crisis. Solar panels are a renewable source of energy that can be used to generate electricity. They are also a clean source of energy that does not produce pollution.
+                                Solar panels are a viable solution to Pakistan energy crisis. Solar panels are a renewable source of energy that can be used to generate electricity. They are also a clean source of energy that does not produce pollution.
                             </p>
                             <div className="flex justify-center my-4">
                                 <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-50 px-6 py-3 my-4 text-lg shadow-xl rounded-xl">

@@ -38,7 +38,7 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden space-x-6 lg:inline-block p-5'>
+                    <div className='hidden lg:inline-block p-5'>
                         <NavLinks />
                     </div>
                     <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-8 bg-white rounded-lg block lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"} `}>

@@ -10,7 +10,7 @@ import asset7 from '../../public/images/clients/asset7.png';
 import asset8 from '../../public/images/clients/asset8.png';
 import asset9 from '../../public/images/clients/asset9.png';
 import asset10 from '../../public/images/clients/asset10.png';
-import asset11 from '../../public/images/clients/asset11.png';
+import asset11 from '../../public/images/solarIcon/NewBrandYear.png';
 import Image from 'next/image';
 
 const clientImage = {
@@ -22,8 +22,8 @@ const clientImage = {
 const Clients = () => {
     return (
         <div className="mt-4 bg-gray-100">
-            <section data-aos="fade-up">
-                <div className="p-4" data-aos="fade-in" data-aos-delay="600">
+            <section>
+                <div className="p-4">
                     <div className="grid grid-cols-4 lg:grid-cols-12">
                         <div className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
                             <Image style={clientImage} src={asset0} alt="client" />
@@ -57,10 +57,10 @@ const Clients = () => {
                             <Image style={clientImage} src={asset9} alt="client" />
                         </div>
                         <div className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
-                            <Image style={clientImage} src={asset10} alt="client" />
+                            <Image style={clientImage} src={asset11} alt="client" />
                         </div>
                         <div className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
-                            <Image style={clientImage} src={asset11} alt="client" />
+                            <Image style={clientImage} src={asset10} alt="client" />
                         </div>
                     </div>
                 </div>

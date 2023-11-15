@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <>
             <div className="hero" id='hero'>
-                <div className="m-auto overflow-hidden mt-8 lg:mt-4 p-2 md:pl-36 lg:pl-36 pt-6 h-5/6" data-aos="zoom-in">
+                <div className="m-auto overflow-hidden mt-8 lg:mt-4 p-2 md:pl-36 lg:pl-36 pt-6 h-5/6 " data-aos="zoom-in">
 
                     <div className="flex flex-col lg:flex-row pt-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
@@ -14,7 +14,7 @@ const Hero = () => {
                                 {/* We build digital solutions to help businesses scale */}
                                 Crown Solar  <span className="md:text-4xl text-3xl font-bold text-black"> Trusted Solar Panel Brand in Pakistan</span>
                             </h1>
-                            <div className="text-base font-medium tracking-tight mb-5 text-black">Embrace solar power with Crown latest Monocrystalline solar panels in Pakistan. Maximize efficiency and savings with our cutting-edge solar solutions. Go green and harness the sun energy for a sustainable future.</div>
+                            <div className="text-base font-medium tracking-tight mb-5 text-black">Embrace solar power with Crown latest P-Type Mono and N-Type Mono & Bifacial solar panels in Pakistan. Maximize efficiency and savings with our cutting-edge solar solutions. Go green and harness the sun energy for a sustainable future.</div>
                             <div className=" space-x-0 md:space-x-2 self-center lg:mr-auto md:mr-auto">
                                 <Link href="/contact" className="text-white capitalize bg-gradient-to-r from-green-500 to-green-700 hover:bg-green-200 hover:text-gray-600 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-base font-medium shadow-xl rounded-2xl sm:mb-0">
                                 Get a free quote now!
