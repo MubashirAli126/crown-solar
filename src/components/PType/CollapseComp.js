@@ -1,13 +1,18 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { TECollapse, TERipple } from "tw-elements-react";
 import ProductList from '@/components/PType/ProductList'
 import ProductDetail from '@/components/PType/ProductDetail'
 
 export default function CollapseComp() {
-    const [showFirstElement, setShowFirstElement] = useState(true);
-    const [showSecondElement, setShowSecondElement] = useState(false);
+    const [showFirstElement, setShowFirstElement] = useState();
+    const [showSecondElement, setShowSecondElement] = useState();
+
+    useEffect(() => {
+        setShowFirstElement(true)
+        setShowSecondElement(false)
+    }, [])
 
     const toggleFirstElement = () => {
         setShowFirstElement(!showFirstElement)
