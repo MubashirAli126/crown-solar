@@ -49,41 +49,34 @@ body {
 }
 
 .aboutBanner {
-  background: linear-gradient(rgb(0 0 0 / 22%),rgb(0 0 0 / 20%)),
-  url(../../public/images/AboutHero.png) top center no-repeat;
+  background: linear-gradient(rgb(0 0 0 / 22%),rgb(0 0 0 / 20%)) top center no-repeat;
   background-size: cover;
 }
 
-.imageBanner {
-  background: 
-  url(../../public/images/imgBanner1.jpg) top center no-repeat;
-  background-size: cover;
-}
 
 .blog {
-  background: linear-gradient(rgb(0 0 0 / 39%),rgb(0 0 0 / 20%)),
-  url(../../public/images/blog-page-banner-final.png) top center no-repeat;
+  background: linear-gradient(rgb(0 0 0 / 39%),rgb(0 0 0 / 20%)), top center no-repeat;
   background-size: cover;
 }
 
 .pTypeBanner {
-  background: url(../../public/images/solar/ProductPagePType.png) top center no-repeat;
+  background: top center no-repeat;
   background-size: cover;
 }
 
 .nTypeBanner {
-  background: url(../../public/images/solar/ProductNTypeMono.png) top center no-repeat;
+  background: top center no-repeat;
   background-size: cover;
 }
 
 .nTypeBiBanner {
-  background: url(../../public/images/solar/ProductNTypeBifacial.png) top center no-repeat;
+  background: top center no-repeat;
   background-size: cover;
 }
 
 .blogBanner {
   background: linear-gradient(rgb(0 0 0 / 35%),rgb(0 0 0 / 20%)),
-  url(../../public/images/blog-page-banner-final.png) top center no-repeat;
+  url() top center no-repeat;
   background-size: cover;
 }
 
