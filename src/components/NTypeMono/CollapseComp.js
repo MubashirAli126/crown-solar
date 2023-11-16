@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { TECollapse, TERipple } from "tw-elements-react";
 import ProductList from '@/components/NTypeMono/ProductList'
 import ProductDetail from '@/components/NTypeMono/ProductDetail'
