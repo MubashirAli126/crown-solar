@@ -6,8 +6,13 @@ import ProductList from '@/components/NTypeBifacial/ProductList'
 import ProductDetail from '@/components/NTypeBifacial/ProductDetail'
 
 export default function CollapseComp() {
-    const [showFirstElement, setShowFirstElement] = useState(true);
-    const [showSecondElement, setShowSecondElement] = useState(false);
+    const [showFirstElement, setShowFirstElement] = useState();
+    const [showSecondElement, setShowSecondElement] = useState();
+
+    useEffect(() => {
+        setShowFirstElement(true)
+        setShowSecondElement(false)
+    }, [])
 
     const toggleFirstElement = () => {
         setShowFirstElement(!showFirstElement)
