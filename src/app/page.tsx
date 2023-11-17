@@ -18,14 +18,14 @@ export default function Home() {
       <CertificateBanner />
       <PerformanceCertified />
       {/* <Intro /> */}
-      <PTypeComponent />
+      <PTypeComponent /> 
       <NTypeComponent />
       {/* <Clients /> */}
       {/* <Services /> */}
-      <InstallmentComponent />
+       <InstallmentComponent />
       <Portfolio />
       <TrustBanner />
-      <Cta />
+      <Cta /> 
     </main>
   )
 }

@@ -5,11 +5,11 @@ import slider10 from '../../../public/images/solar/NTypeMonoBlueprint.png'
 function ProductDetail() {
   return (
     <>
-      <div className="m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm h-5/6">
+      <div className="m-auto max-w-xl px-4 sm:max-w-2xl md:max-w-4xl md:px-8 lg:max-w-5xl xl:max-w-7xl h-5/6">
         <div className="flex justify-between lg:text-left" data-aos="zoom-out">
 
           <div className='grid sm:grid-cols-2 lg:grid-cols-2 gap-5 p-4'>
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-left">
               {/* <div className='text-blue-900 mb-4'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" className='fill-current'><path d="M2 12h2a7.986 7.986 0 0 1 2.337-5.663 7.91 7.91 0 0 1 2.542-1.71 8.12 8.12 0 0 1 6.13-.041A2.488 2.488 0 0 0 17.5 7C18.886 7 20 5.886 20 4.5S18.886 2 17.5 2c-.689 0-1.312.276-1.763.725-2.431-.973-5.223-.958-7.635.059a9.928 9.928 0 0 0-3.18 2.139 9.92 9.92 0 0 0-2.14 3.179A10.005 10.005 0 0 0 2 12zm17.373 3.122c-.401.952-.977 1.808-1.71 2.541s-1.589 1.309-2.542 1.71a8.12 8.12 0 0 1-6.13.041A2.488 2.488 0 0 0 6.5 17C5.114 17 4 18.114 4 19.5S5.114 22 6.5 22c.689 0 1.312-.276 1.763-.725A9.965 9.965 0 0 0 12 22a9.983 9.983 0 0 0 9.217-6.102A9.992 9.992 0 0 0 22 12h-2a7.993 7.993 0 0 1-.627 3.122z"></path><path d="M12 7.462c-2.502 0-4.538 2.036-4.538 4.538S9.498 16.538 12 16.538s4.538-2.036 4.538-4.538S14.502 7.462 12 7.462zm0 7.076c-1.399 0-2.538-1.139-2.538-2.538S10.601 9.462 12 9.462s2.538 1.139 2.538 2.538-1.139 2.538-2.538 2.538z"></path></svg>
                             </div> */}
@@ -21,44 +21,44 @@ function ProductDetail() {
                       <table className="min-w-full text-left text-sm font-light">
                         <tbody>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Weight</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">27kg</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Weight</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">27kg</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Dimensions</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">2279mm*1134mm*30mm</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Dimensions</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">2279mm*1134mm*30mm</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Cell Dimensions</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">182*182mm</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Cell Dimensions</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">182*182mm</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Cell Amount</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">72*2 pcs</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Cell Amount</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">72*2 pcs</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Maximum System Voltage</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">1500V</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Maximum System Voltage</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">1500V</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Junction Box</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">IP68</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Junction Box</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">IP68</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Frame</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">Aluminum Alloy</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Frame</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">Aluminum Alloy</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Cable</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">4mm2, N 1400mm/P 1400mm for Horizontal installation</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Cable</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">4mm2</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Connector</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">MC4 compatible</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Connector</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">MC4 compatible</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Application Level</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">Class A</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Application Level</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">Class A</td>
                           </tr>
                         </tbody>
                       </table>
@@ -81,7 +81,7 @@ function ProductDetail() {
           <div className="flex flex-col">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="py-2 sm:px-6 lg:px-8">
-                <div className="overflow-hidden">
+                <div className="overflow-x-auto">
                   <table className="min-w-full text-left text-sm font-light">
                     <tbody>
                       <tr className="border-b dark:border-neutral-300">
@@ -148,7 +148,7 @@ function ProductDetail() {
           <div className="flex flex-col">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="py-2 sm:px-6 lg:px-8">
-                <div className="overflow-hidden">
+                <div className="overflow-x-auto">
                   <table className="min-w-full text-left text-sm font-light">
                     <tbody>
                       <tr className="border-b dark:border-neutral-300">

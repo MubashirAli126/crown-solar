@@ -6,8 +6,8 @@ import Image from 'next/image';
 const Intro = () => {
     return (
         <>
-            <div className="mx-auto md:my-8 lg:my-8 text-center max-w-screen-xl max-w-screen-lg max-w-screen-sm" >
-                <section data-aos="zoom-in-down">
+            <div className="mx-auto md:my-8 lg:my-8 text-center max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl" >
+                <section data-aos="fade-up">
                     <div className="my-4" style={{ textAlign: '-webkit-center' }}>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
                             <Image alt="card img" className="rounded-t float-right self-center" src={img} width={150} height={200} />

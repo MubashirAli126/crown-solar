@@ -17,48 +17,48 @@ function ProductDetail() {
               <div className="flex flex-col">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                   <div className="py-2 sm:px-6 lg:px-8">
-                    <div className="overflow-hidden">
+                    <div className="overflow-x-auto">
                       <table className="min-w-full text-left text-sm font-light">
                         <tbody>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Weight</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">27kg</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Weight</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">27kg</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Dimensions</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">2279mm*1134mm*30mm</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Dimensions</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">2279mm*1134mm*30mm</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Cell Dimensions</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">182*182mm</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Cell Dimensions</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">182*182mm</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Cell Amount</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">72*2 pcs</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Cell Amount</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">72*2 pcs</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Maximum System Voltage</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">1500V</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Maximum System Voltage</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">1500V</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Junction Box</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">IP68</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Junction Box</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">IP68</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Frame</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">Aluminum Alloy</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Frame</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">Aluminum Alloy</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Cable</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">4mm2, N 1400mm/P 1400mm for Horizontal installation</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Cable</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">4mm2, N 1400mm/P 1400mm for Horizontal installation</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Connector</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">MC4 compatible</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Connector</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">MC4 compatible</td>
                           </tr>
                           <tr className="border-b dark:border-neutral-300">
-                            <td className="whitespace-nowrap px-6 py-4 text-sm font-medium">Application Level</td>
-                            <td className="whitespace-nowrap text-sm px-6 py-4">Class A</td>
+                            <td className="whitespace-pre-line px-6 py-4 text-sm font-medium">Application Level</td>
+                            <td className="whitespace-pre-line text-sm px-6 py-4">Class A</td>
                           </tr>
                         </tbody>
                       </table>
@@ -81,7 +81,7 @@ function ProductDetail() {
           <div className="flex flex-col">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="py-2 sm:px-6 lg:px-8">
-                <div className="overflow-hidden">
+                <div className="overflow-x-auto">
                   <table className="min-w-full text-left text-sm font-light">
                     <tbody>
                       <tr className="border-b dark:border-neutral-300">
@@ -148,7 +148,7 @@ function ProductDetail() {
           <div className="flex flex-col">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="py-2 sm:px-6 lg:px-8">
-                <div className="overflow-hidden">
+                <div className="overflow-x-auto">
                   <table className="min-w-full text-left text-sm font-light">
                     <tbody>
                       <tr className="border-b dark:border-neutral-300">

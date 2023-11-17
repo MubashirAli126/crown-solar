@@ -2,7 +2,7 @@
 function InstallmentComponent() {
     return (
         <>
-            <div className="m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm p-4 md:px-4 h-5/6">
+            <div className="m-auto max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl p-4 px-4 h-5/6">
                 <div className="grid lg:grid-cols-2 gap-5">
                     <div className="justify-center self-center">
                         <h3 className="lg:text-xl text-lg mt-4 text-black font-medium">Easy Installation <br />

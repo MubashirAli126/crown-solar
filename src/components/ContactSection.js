@@ -12,7 +12,7 @@ function ContactSection() {
         window.location.href = outlookMailtoLink;
     };
     return (
-        <div className='m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm '>
+        <div className='m-auto max-w-xl px-8 sm:max-w-2xl md:max-w-4xl md:px-8 lg:max-w-5xl xl:max-w-7xl'>
             <div className="w-fullflex py-4 items-center justify-center text-black">
                 <div className="grid sm:grid-cols-3 lg:grid-cols-3 gap-5 p-4">
                     <div className="rounded-2xl border-green-700 border p-3 group">

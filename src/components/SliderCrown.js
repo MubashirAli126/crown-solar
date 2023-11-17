@@ -27,7 +27,7 @@ function SliderCrown() {
     };
     return (
         <>
-            <div>
+            <div className='hidden sm:block xl:block md:block lg:block'>
                 <Slider {...settings}>
                     <div>
                         <Image className='p-2 rounded-lg' src={slider1} alt="card img" />

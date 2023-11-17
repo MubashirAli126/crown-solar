@@ -5,7 +5,7 @@ import img1 from '../../public/images/solar/NTypeSection.png'
 function NTypeComponent() {
     return (
         <>
-            <div className="m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm p-4 md:px-4 h-5/6" data-aos="zoom-out">
+            <div className="m-auto px-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl p-4 h-5/6" data-aos="fade-down">
                 <div className="grid lg:grid-cols-2 gap-5">
                     <div className="mx-auto justify-center">
                         <Image alt="card img" src={img1} width={450} height={900} />

@@ -46,14 +46,14 @@ export default function CollapseComp() {
                 <div className="my-4">
                     <div>
                         <TECollapse show={showFirstElement}>
-                            <div className="block rounded-lg bg-white p-6 shadow-lg">
+                            <div className="block rounded-lg bg-white shadow-lg">
                                 <ProductList />
                             </div>
                         </TECollapse>
                     </div>
                     <div>
                         <TECollapse show={showSecondElement}>
-                            <div className="block rounded-lg bg-white p-6 shadow-lg">
+                            <div className="block rounded-lg bg-white shadow-lg">
                                 <ProductDetail />
                             </div>
                         </TECollapse>

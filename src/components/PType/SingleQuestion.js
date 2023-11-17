@@ -11,7 +11,7 @@ function SingleQuestion({ question, answer }) {
             <div className="flex items-center justify-between border-2 p-3 my-2 rounded-md">
                 <h2
                     onClick={() => setShowAnswer(!showAnswer)}
-                    className="text-base font-medium cursor-pointer"
+                    className="text-base font-medium text-black cursor-pointer"
                 >
                     {question}
                 </h2>
@@ -26,7 +26,7 @@ function SingleQuestion({ question, answer }) {
                     </button>
                 )}
             </div>
-            <div className="px-5">{showAnswer && <p className='text-left text-base font-medium'>{answer}</p>}</div>
+            <div className="px-5">{showAnswer && <p className='text-left text-base font-medium text-grey-700'>{answer}</p>}</div>
         </>
     )
 }

@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from 'react'
 import Link from 'next/link';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { MenuItem } from './NavMenu';
 
@@ -25,13 +27,13 @@ export default function NavDropdown(props) {
                 <button
                     className="px-4 font-extrabold text-gray-900 hover:text-green-600"
                     onClick={toggle}
-                >{item.title}</button>
-                <div className={`absolute w-44 shadow-lg left-px top-8 z-30 flex flex-col py-4 bg-white rounded-md ${transClass}`}>
+                >{item.title} <FontAwesomeIcon icon={faAngleDown} /></button>
+                <div className={`absolute w-44 shadow-lg left-px top-8 z-30 flex flex-col py-2 bg-slate-100 rounded-md ${transClass}`}>
                     {
                         menuItems.map(item =>
                             <Link
                                 key={item.route}
-                                className="hover:bg-green-100 hover:text-black px-4 py-1"
+                                className="hover:bg-green-600 hover:text-white font-bold smooth px-4 py-1"
                                 href={item?.route || ''}
                                 onClick={toggle}
                             >{item.title}</Link>

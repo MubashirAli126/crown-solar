@@ -81,11 +81,11 @@ function Page() {
         <>
             <ContactBanner />
             <ContactSection />
-            <div className="m-auto max-w-screen-xl max-w-screen-lg max-w-screen-sm flex justify-center items-center w-full bg-white py-4 bg-gray-200">
-                <div className="container mx-auto my-4 px-4 lg:px-20" data-aos="zoom-in">
+            <div className="m-auto max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl flex justify-center items-center w-full bg-white py-4">
+                <div className="w-full px-4" data-aos="zoom-in">
 
                     <form>
-                        <div className="w-full bg-white p-8 my-4 md:px-12 rounded-2xl shadow-2xl">
+                        <div className=" bg-white p-8 my-4 md:px-12 rounded-2xl shadow-2xl">
                             <div className="flex">
                                 <h1 className="font-bold text-center lg:text-left text-green-700 uppercase text-2xl">Get in touch</h1>
                             </div>
@@ -152,7 +152,7 @@ function Page() {
                                 ></textarea>
                             </div>
                             <div className="my-2 w-1/2 lg:w-2/4">
-                                <button type="submit" id="submitBtn" className="uppercase text-sm font-bold tracking-wide bg-gray-500 hover:bg-green-700 text-gray-100 p-3 rounded-lg w-full 
+                                <button type="submit" id="submitBtn" className="text-sm font-bold tracking-wide bg-gray-500 hover:bg-green-700 text-gray-100 p-3 rounded-lg w-full 
                                     focus:outline-none focus:shadow-outline">
                                     Send Message
                                 </button>
