@@ -5,7 +5,7 @@ import img1 from '../../public/images/solar/PTypeSection.png'
 function PTypeComponent() {
     return (
         <>
-            <div className="m-auto px-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl p-4 h-5/6" data-aos="fade-up">
+            <div className="m-auto p-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl xl:p-8 lg:p-8 h-5/6" data-aos="fade-up">
                 <div className="grid lg:grid-cols-2 gap-5">
                     <div className=" mx-auto justify-center">
                         <Image alt="card img" src={img1} width={450} height={900}/>

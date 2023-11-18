@@ -81,6 +81,7 @@ function Page() {
         <>
             <ContactBanner />
             <ContactSection />
+            <DistributorSection />
             <div className="m-auto max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl flex justify-center items-center w-full bg-white py-4">
                 <div className="w-full px-4" data-aos="zoom-in">
 
@@ -161,7 +162,6 @@ function Page() {
                     </form>
                 </div>
             </div>
-            <DistributorSection />
         </>
     )
 }

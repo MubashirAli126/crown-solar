@@ -4,12 +4,12 @@ import image1 from '../../public/images/JapaneseTechnologySection.png';
 function TrustBanner() {
     return (
         <>
-            <div className="m-auto px-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl p-4 h-5/6">
+            <div className="m-auto p-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl h-5/6">
                 <div className="grid lg:grid-cols-2 gap-5">
                     <div className="mx-auto justify-center">
                         <Image alt="card img" src={image1} width={450} height={900} />
                     </div>
-                    <div className="justify-center self-center">
+                    <div className="justify-center self-center" data-aos="fade-left">
                         <h3 className="lg:text-xl text-lg text-black font-medium">Quality Excellence: Japanese Technology Certified by JPEA <br />
                             <span className='lg:text-2xl text-xl font-semibold text-green-700'>Precision Crafted with Japanese Excellence</span></h3>
                         <div>

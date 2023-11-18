@@ -52,12 +52,12 @@ function EnergyLoadCalculator() {
 
   return (
     <div className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
-      <div className="container mx-auto my-8 px-8 lg:px-20" data-aos="zoom-in">
-        <div className="w-full bg-white py-8 my-4 md:px-12 lg:pl-20 lg:pr-20 mr-auto rounded-2xl shadow-2xl">
+      <div className="mx-auto my-8 px-8 lg:px-20" data-aos="zoom-in">
+        <div className="w-full bg-white py-8 my-4 md:px-8 lg:px-10 mr-auto rounded-2xl shadow-2xl">
           <div className="flex place-content-center">
             <h1 className="font-bold text-center lg:text-left text-green-700 uppercase text-3xl">Calculate your energy</h1>
           </div>
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-4 my-8">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-4 my-8">
             <label className='px-4 md:px-2 lg:px-2'>
               No. of Tubelights:
               <input

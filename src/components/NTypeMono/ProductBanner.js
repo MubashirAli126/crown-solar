@@ -6,7 +6,7 @@ function ProductBanner() {
     return (
         <>
             <div
-                className="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[350px] sm:h-[350px] sm:pt-16 lg:h-[500px] lg:pt-14 xl:h-[600px] md:h-[400px]">
+                className="relative overflow-hidden bg-cover bg-no-repeat bg-[50%] h-[350px] sm:h-[350px] sm:pt-16 lg:h-[500px] lg:pt-14 xl:h-[600px] xl:pt-2 md:h-[400px]">
                 <Image className='nTypeBanner hidden sm:block xl:block md:block lg:block w-full' alt="card img" src={image1} />
                 <Image className='nTypeBanner block sm:hidden xl:hidden md:hidden lg:hidden  w-full' alt="card img" src={imageMob} />
             </div>

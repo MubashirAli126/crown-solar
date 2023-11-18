@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="m-auto overflow-hidden mt-8 lg:mt-4 p-2 md:pl-36 lg:pl-36 pt-6 h-5/6 " data-aos="zoom-in">
 
                     <div className="flex flex-col lg:flex-row pt-8 justify-between text-center lg:text-left">
-                        <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
+                        <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="100">
                             <h1 className="mb-5 md:text-4xl text-3xl font-bold text-green-700">
                                 {/* We build digital solutions to help businesses scale */}
                                 Crown Solar  <span className="md:text-4xl text-3xl font-bold text-black"> Trusted Solar Panel Brand in Pakistan</span>

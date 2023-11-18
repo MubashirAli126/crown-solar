@@ -1,9 +1,9 @@
 function PerformanceCertified() {
     
     return (
-        <div className="m-auto px-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl h-5/6">
+        <div className="m-auto p-4 max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl xl:p-8 lg:p-8 h-5/6">
             <div className="grid lg:grid-cols-2 gap-5">
-                <div className="justify-center self-center">
+                <div className="justify-center self-center" data-aos="fade-right">
                     <h3 className="lg:text-xl text-lg mt-4 text-black font-medium">	Unrivaled Quality Assurance <br />
                         <span className='lg:text-2xl text-xl font-semibold text-green-700'>Precision Crafted as a Tier 1 Manufacturer </span></h3>
                     <div>

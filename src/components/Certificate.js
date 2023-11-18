@@ -23,7 +23,7 @@ const Certificate = () => {
     return (
         <div className="mt-8 bg-gray-100">
             <section data-aos="fade-up">
-                <div className="p-4" data-aos="fade-in" data-aos-delay="600">
+                <div className="p-2" data-aos="fade-in" data-aos-delay="600">
                     <div className="grid grid-cols-4 lg:grid-cols-12">
                         <div className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
                             <Image style={certiImage} src={asset0} alt="client" />

@@ -22,7 +22,7 @@ const NavBar = () => {
     }, [top]);
 
     return (
-        <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 lg:px-20 md:px-20 ${!top && 'bg-white shadow-lg'}`} style={{ background: "linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(249,249,249,1) 35%, rgba(255,255,255,1) 100%)" }}>
+        <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 xl:px-20 lg:px-8 md:px-15 ${!top && 'bg-white shadow-lg'}`} style={{ background: "linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(249,249,249,1) 35%, rgba(255,255,255,1) 100%)" }}>
             <div className="flex flex-row justify-between items-center p-2">
                 <div className="flex flex-row justify-center md:px-6 md:mx-6 items-center text-center font-semibold">
                     <Link href="/"><Image alt="logo img" src={logoImg} width={200} height={200}/></Link>
@@ -38,7 +38,7 @@ const NavBar = () => {
                             )}
                         </svg>
                     </button>
-                    <div className='hidden lg:inline-block p-5'>
+                    <div className='hidden lg:inline-block p-5 lg:p-3'>
                         <NavLinks />
                     </div>
                     <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-8 bg-white rounded-lg block lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"} `}>

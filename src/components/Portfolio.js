@@ -57,7 +57,7 @@ const Portfolio = () => {
                     </div> */}
             {/* </div>
             </div> */}
-            <div class="py-4 px-4 mx-auto max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl">
+            <div class="p-4 mx-auto max-w-xl sm:max-w-2xl md:max-w-4xl lg:max-w-5xl xl:max-w-7xl xl:p-8 lg:p-8 bgc-f7">
                 <div class="mx-auto max-w-screen-sm text-center lg:mb-8 mb-8">
                     <h2 className="mt-3 mx-12 text-center text-xl lg:text-2xl font-semibold text-green-700 uppercase">News, Events and Blogs</h2>
                     <div className='flex justify-center'>
