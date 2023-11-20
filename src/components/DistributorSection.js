@@ -48,8 +48,31 @@ function DistributorSection() {
                                 <span class="bg-white px-5 text-base font-semibold text-black">Sadiq Abad / Rahim Yar Khan </span>
                             </div>
                             <DistributorDetail address="Muslim Solar, KLP Road opp.Admore Pump Sadiq Abad, Sadiq Abad" phone1="0303-5077769" />
-                            <DistributorDetail address="Arsalan Electric, New Bus Stope, KLP Road, Maqbool City, Sadiqabad " phone1="0300-6982688 " phone2="0345-8041300" />
+                            <DistributorDetail address="Arsalan Electric, New Bus Stope, KLP Road, Maqbool City, Sadiq Abad " phone1="0300-6982688 " phone2="0345-8041300" />
                         </div>
+
+                        <div class="-my-4 divide-y divide-gray-200 dark:divide-gray-500">
+                            <div class="h-5 border-b border-green-700 text-lg text-center">
+                                <span class="bg-white px-5 text-base font-semibold text-black">Multan</span>
+                            </div>
+                            <DistributorDetail address="Jady Solar, Huusain Agahi Electronics Market, Multan" phone1="0308-9256071 " />
+                            <DistributorDetail address="Arif Electronics, New Bus Stope, Huusain Agahi Electronics Market, Multan" phone1="0301-1383736" />
+                        </div>
+
+                        <div class="-my-4 divide-y divide-gray-200 dark:divide-gray-500">
+                            <div class="h-5 border-b border-green-700 text-lg text-center">
+                                <span class="bg-white px-5 text-base font-semibold text-black">Sahiwal</span>
+                            </div>
+                            <DistributorDetail address="Kisan Sollar & Electronics, Al Baqa Chowk Sargodha Road, Sahiwal" phone1="0301-6701100  " />
+                        </div>
+                        
+                        <div class="-my-4 divide-y divide-gray-200 dark:divide-gray-500">
+                            <div class="h-5 border-b border-green-700 text-lg text-center">
+                                <span class="bg-white px-5 text-base font-semibold text-black">Jhang</span>
+                            </div>
+                            <DistributorDetail address="Sarhad Solar & Electronics, Sarahd Petrolium Adda Bhoon, Jhang" phone1="0301-6701100   " />
+                        </div>
+
                     </div>
                 </div>
             </div>
