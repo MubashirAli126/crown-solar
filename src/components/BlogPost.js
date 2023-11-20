@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import img1 from '../../public/images/image1.png';
 import img2 from '../../public/images/image2.png';
-import img3 from '../../public/images/image3.png';
-import mainImg from '../../public/images/slider/slider4.jpg'
+import img3 from '../../public/images/image2.png';
+import mainImg from '../../public/images/slider/slider9.jpg'
 import Image from 'next/image';
 import BlogPostDetail from '@/components/shared/BlogPostDetail'
 import BlogSection from '@/components/shared/BlogSection'
@@ -20,8 +20,8 @@ function BlogPost() {
                                     <Image class="" src={mainImg} alt="avatar" />
                                 </div>
                                 <div className="text-left self-center">
-                                    <h2 class="mb-2 font-semibold text-lg tracking-tight text-black">Solar Solutions</h2>
-                                    <p class="mb-2 text-sm font-medium ">Crown Solar is a leading provider of solar panels in Pakistan. The company is backed by Crown Group of Companies, a leading two and three-wheeler automotive spare parts manufacturer in Pakistan since the last 20 years.</p>
+                                    <h2 class="mb-2 font-semibold text-lg tracking-tight text-black">Advanced N-Type Technology Solar Panels in Pakistan</h2>
+                                    <p class="mb-2 text-sm font-medium ">N-type solar panels are assembling waves since they swear to be more reliable, long-lasting, and efficient than their conventional counterparts. This article examines Pakistan cutting-edge N-type technology market, underscoring CrownSolar.co unique ambitions.</p>
                                     <div class="flex justify-between items-center">
                                         <div class="flex items-center space-x-4">
                                             <Link href="/n-type-blog" class="bg-gray-100 inline-flex items-center font-medium text-green-700 hover:underline">
@@ -37,10 +37,9 @@ function BlogPost() {
 
                         <div className="md:pt-10 lg:pt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-                            <BlogPostDetail sampleText="Blog" addhref="/post-one" heading="Crown Solar Solutions" imgSrc={img1} paragraph="Crown Solar is a leading provider of solar panels in Pakistan. The company is backed by Crown Group of Companies, a leading two and three-wheeler automotive spare parts manufacturer in Pakistan since the last 20 years." />
-                            <BlogPostDetail sampleText="Blog" addhref="/post-three" heading="Crown Solar Solutions: Monocrystalline Solar Panels" imgSrc={img3} paragraph="Crown Solar is a leading provider of solar panels in Pakistan. The company is backed by Crown Group of Companies, a leading two and three-wheeler automotive spare parts manufacturer in Pakistan since the last 20 years." />
-                            <BlogPostDetail sampleText="Blog" addhref="/post-two" heading="The Importance of Solar Panels in Pakistan" imgSrc={img2} paragraph="Solar panels are a viable solution to Pakistan energy crisis. Solar panels are a renewable source of energy that can be used to generate electricity. They are also a clean source of energy that does not produce pollution." />
-                          
+                            <BlogPostDetail sampleText="Blog" addhref="/solar-in-pakistan" heading="Importance of Solar Panels in Pakistan" imgSrc={img1} paragraph="Solar energy is the cleanest, most abundant source of energy on Earth. It is free, it is reliable, and it is good for the environment. Solar energy can help us reduce our dependence on fossil fuels, improve our air quality, and create jobs." />
+                            <BlogPostDetail sampleText="Blog" addhref="/monocrystalline-panels" heading="Monocrystalline Panels - A Game Changer in Pakistan" imgSrc={img3} paragraph="Monocrystalline solar panels are a type of solar panel that is made from a single crystal of silicon. This makes them more efficient than other types of solar panels, and they can also withstand harsher conditions." />
+
                             {/* <div className="rounded-2xl border-white-800 border-2 group">
                                 <Image alt="card img" className=" transition duration-1000 ease-in-out w-full" src={img3} />
                                 <div className="m-2">
