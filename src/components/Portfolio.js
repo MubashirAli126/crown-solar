@@ -66,8 +66,8 @@ const Portfolio = () => {
                     {/* <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p> */}
                 </div>
                 <div class="grid gap-8 lg:grid-cols-1">
-                    <BlogSection sampleText="Blog" heading="Crown Solar Solutions" imgSrc={img1} paragraph="Crown Solar is a leading provider of solar panels in Pakistan. The company is backed by Crown Group of Companies, a leading two and three-wheeler automotive spare parts manufacturer in Pakistan since the last 20 years." />
-                    <BlogSection sampleText="Blog" heading="The Importance of Solar Panels in Pakistan" imgSrc={img2} paragraph="Third world countries are often faced with a number of challenges, including a lack of access to reliable and affordable energy. This can have a significant impact on the quality of life for people in these countries, as well as their ability to develop economically." />
+                    <BlogSection sampleText="Blog" href="/solar-in-pakistan" heading="Importance of Solar Panels in Pakistan" imgSrc={img1} paragraph="Solar energy is the cleanest, most abundant source of energy on Earth. It is free, it is reliable, and it is good for the environment. Solar energy can help us reduce our dependence on fossil fuels, improve our air quality, and create jobs." />
+                    <BlogSection sampleText="Blog"  href="/monocrystalline-panels" heading="Monocrystalline Panels - A Game Changer in Pakistan" imgSrc={img2} paragraph="Monocrystalline solar panels are a type of solar panel that is made from a single crystal of silicon. This makes them more efficient than other types of solar panels, and they can also withstand harsher conditions." />
                 </div>
             </div>
         </>
