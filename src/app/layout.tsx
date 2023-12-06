@@ -33,6 +33,13 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/img/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta property="og:title" content="Solar Panel Company in Pakistan - Solar Solutions - Crown Solar"></meta>
+        <meta property="og:locale" content="en_US" ></meta>
+        <meta property="og:site_name" content="Crown Solar"></meta>
+        <meta property="og:url" content="https://www.crownsolar.co/"></meta>
+        <meta property="og:description" content="As a Solar Panel Company, we pride a truly advanced solar energy solution in Pakistan. Embrace solar power with Crown latest P-Type and N-Type solar panels."></meta>
+        <meta property="og:type" content=""></meta>
+        <meta property="og:image" content=""></meta>
       </head>
       <body className={inter.className}>
         <Navbar />
