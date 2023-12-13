@@ -3,3 +3,14 @@ User-agent: *
 Disallow:
 
 Sitemap: https://www.crownsolar.co/sitemap.xml
+
+  const TABLE_HEAD = [
+    { id: 'shopName', label: 'Shop Name' },
+    { id: 'region', label: 'Region' },
+    { id: 'pointCategory', label: 'Point Category' },
+    { id: 'schemeName', label: 'Scheme Name' },
+    { id: 'target', label: 'Target' },
+    { id: 'achived', label: 'Achieved' },
+    { id: 'rank', label: 'Rank' },
+    { id: '' },
+  ];

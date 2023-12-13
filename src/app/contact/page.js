@@ -88,7 +88,7 @@ function Page() {
                     <form>
                         <div className=" bg-white p-8 my-4 md:px-12 rounded-2xl shadow-2xl">
                             <div className="flex">
-                                <h1 className="font-bold text-center lg:text-left text-green-700 uppercase text-2xl">Get in touch</h1>
+                                <h2 className="font-bold text-center lg:text-left text-green-700 uppercase text-2xl">Get in touch</h2>
                             </div>
                             <div className='flex'>
                                 <p className='font-medium text-left text-black text-base'>If you have any questions, please feel free to leave us a message</p>

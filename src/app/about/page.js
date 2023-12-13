@@ -12,14 +12,14 @@ function page() {
     return (
         <>
             <AboutBanner />
-           <Intro />
-             <Clients />
+            <Intro />
+            <Clients />
             <VisionMission />
-           <WhyChoose />
+            <WhyChoose />
             <SocialResponsibility />
-             <TechnicalDetail />
+            <TechnicalDetail />
             <SliderCrown />
-            <Cta /> 
+            <Cta />
         </>
     )
 }
