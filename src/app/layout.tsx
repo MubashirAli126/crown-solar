@@ -32,7 +32,6 @@ export default function RootLayout({
     <html lang="en">
       <AOSInit />
       <head>
-        <link rel="icon" href="/img/favicon.ico" sizes="any" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="Solar Panel Company in Pakistan - Solar Solutions - Crown Solar" />
         <meta property="og:locale" content="en_US" />
@@ -41,6 +40,8 @@ export default function RootLayout({
         <meta property="og:description" content="As a Solar Panel Company, we pride a truly advanced solar energy solution in Pakistan. Embrace solar power with Crown latest P-Type and N-Type solar panels." />
         <meta property="og:type" content="" />
         <meta property="og:image" content="" />
+        <link rel="canonical" href="https://www.crownsolar.co/" />
+        <link rel="icon" href="/img/favicon.ico" sizes="any" />
         {<FACEBOOK_PIXEL />}
       </head>
       <body className={inter.className}>
