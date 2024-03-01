@@ -83,3 +83,29 @@ body {
   background: linear-gradient(rgb(0 0 0 / 15%),rgb(0 0 0 / 10%)), top center no-repeat;
   background-size: cover;
 }
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn {
+  background-image: linear-gradient(to right, #84fab0 0%, #35cf75 51%, #84fab0 100%);
+}
